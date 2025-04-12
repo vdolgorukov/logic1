@@ -9,7 +9,7 @@ description:
 # If baseurl_canonical is set, 
 # a <link rel="canonical"> tag will be added to the head of each page,
 # to disambiguate links for search engines.
-baseurl_canonical: https://vdolgorukov.github.io/logic/
+baseurl_canonical: https://vdolgorukov.github.io/logic1/
 
 # A copyright notice will be shown at the bottom of each page,
 # with the current year and the author name.
@@ -82,7 +82,7 @@ sidebar_toc:
 
 # Show a link to edit each page on GitHub
 github_edit:
-  enabled: true
+  enabled: false
   base_url: https://github.com/https://vdolgorukov.github.io/logic1/edit/master/
 
 # Custom CSS
