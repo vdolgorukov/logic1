@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Элементы наивной теории множеств
-slug: other
-abstract: Тесты и упражнения
+slug: set theory
+abstract: 
 ---
 
+
+# Упражнения
 
 
 {% include quiz.html 
