@@ -46,7 +46,6 @@ answer="1|3"
 
 # Упражнениe 3
 {% include quiz.html 
-  id="3" 
   type="multiple" 
   question="**Какие из утверждений ниже верны?**" 
   options="$\varnothing \in \\{ \varnothing \\}$|
