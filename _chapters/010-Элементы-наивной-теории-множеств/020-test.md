@@ -18,22 +18,24 @@ abstract:
 %}
 
 # Упражнениe 2
+
 **Пусть $A = \\{a, \\{b\\}, c \\}$, тогда какие из утверждений нижк верны?** 
+
 {% include quiz.html 
   id="2.1" 
   type="multiple" 
-  question="" 
+  question=" " 
   options="$ a \in A$|
 $ b \in A$|
 $ \\{a\\} \in A$|
-$ \\{b\\} \in A$|
+$ \\{b\\} \in A$"
 answer="1|4" 
 %}
 
 {% include quiz.html 
   id="2.2" 
   type="multiple" 
-  question="" 
+  question=" " 
   options="
 $ \\{a\\} \subseteq A$|
 $ \\{b\\} \subseteq A$|
