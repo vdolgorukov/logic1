@@ -11,7 +11,7 @@ abstract:
 {% include quiz.html 
   id="1" 
   type="multiple" 
-  question="Какие из утверждений верны?" 
+  question="**Какие из утверждений ниже верны?**" 
   options="$\\{a, b \\} = \\{b, a\\}$|
   $\\{a, b, b, b, b, c \\} = \\{b, a, c\\}$"
   answer="1|2" 
@@ -19,7 +19,7 @@ abstract:
 
 # Упражнениe 2
 
-**Пусть $A = \\{a, \\{b\\}, c \\}$, тогда какие из утверждений нижк верны?** 
+**Пусть $A = \\{a, \\{b\\}, c \\}$, тогда какие из утверждений ниже верны?** 
 
 {% include quiz.html 
   id="2.1" 
@@ -48,7 +48,7 @@ answer="1|3"
 {% include quiz.html 
   id="3" 
   type="multiple" 
-  question="Какие из утверждений верны?" 
+  question="**Какие из утверждений ниже верны?**" 
   options="$\varnothing \in \\{ \varnothing \\}$|
 $\varnothing \in \\{ \\{ \varnothing \\} \\}$|
 $\varnothing \subseteq \\{ \varnothing \\}$|
