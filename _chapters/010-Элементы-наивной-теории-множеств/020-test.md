@@ -13,7 +13,8 @@ abstract:
   type="multiple" 
   question="Какие из утверждений ниже верны?" 
   options="$\\{a, b \\} = \\{b, a\\}$|
-  $\\{a, b, b, b, b, c \\} = \\{b, a, c\\}$"
+  $\\{a, b, b, b, b, c \\} = \\{b, a, c\\}$|
+  $\langle a, b \rangle = \langle b, a \rangle$"
   answer="1|2" 
 %}
 
