@@ -9,6 +9,7 @@ abstract:
 # Упражнениe 1 
 
 {% include quiz.html 
+  id="1"
   type="multiple" 
   question="**Какие из утверждений ниже верны?**" 
   options="$\\{a, b \\} = \\{b, a\\}$|
@@ -21,6 +22,7 @@ abstract:
 **Пусть $A = \\{a, \\{b\\}, c \\}$, тогда какие из утверждений ниже верны?** 
 
 {% include quiz.html 
+  id="2.1"
   type="multiple" 
   question=" " 
   options="$ a \in A$|
@@ -31,6 +33,7 @@ answer="1|4"
 %}
 
 {% include quiz.html 
+  id="2.2"
   type="multiple" 
   question=" " 
   options="
@@ -43,6 +46,7 @@ answer="1|3"
 
 # Упражнениe 3
 {% include quiz.html 
+  id="3"
   type="multiple" 
   question="**Какие из утверждений ниже верны?**" 
   options="$\varnothing \in \\{ \varnothing \\}$|
