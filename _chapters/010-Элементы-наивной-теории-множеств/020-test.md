@@ -75,3 +75,30 @@ $\varnothing \in \varnothing$"
 answer="1|3|4|5" 
 %}
 
+# Упражнениe 5
+
+**Пусть $X = \\{a, b\\}$, $Y = \\{b, c\\}$, $Z = \\{a, b, c, d\\}$  тогда какие из утверждений ниже верны?** 
+
+{% include quiz.html 
+  id="5.1"
+  type="multiple" 
+  question=" " 
+  options="$X  \subseteq Y$|
+$Y\subseteq X$|
+$X \cap Y = Z$|
+$X \cap Y \subseteq Z$|
+$X \cup Y \subseteq Z$"
+answer="4|5" 
+%}
+
+{% include quiz.html 
+  id="5.2"
+  type="multiple" 
+  question=" " 
+  options="$ Z \setminus  X = \\{ c, d\\}$|
+$ Z \setminus  (X \cup Y) =  \\{d\\} $|
+$ Z \setminus (X \cap Y) =  \\{a, b, d\\}$|
+$ X \setminus Y =  \\{ a \\}$|
+$ X \setminus Y = a $"
+answer="1|2|4" 
+%}
